@@ -5,7 +5,7 @@
  */
 export const pedirCarta = (deck) => {
   if (!deck || deck.length === 0) {
-    throw new Error("No hay cartas en el deck");
+    throw new Error("No card Left in the Deck");
   }
   const carta = deck.pop();
   return carta;
